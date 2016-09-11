@@ -13,4 +13,9 @@ This is a python tool which lets you bruteforce a rar file that has passwords, y
 
 # Demo
 
-``
+`
+# testing to start program just call start method
+
+rar = RarCrackFile('crackMeTest.rar', 10, 'dictionary.txt')
+rar.start()
+`
