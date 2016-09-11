@@ -38,7 +38,7 @@ class RarCrackFile:
 
         # changes the size of threading just in case
         self.minThreadCounts = len(self.threadIndexList)
-        # changing the left size i.e(max_size = 100 and last point is 98 then last point is changed to 100)
+        # changing the size of the last item(reference points) i.e(max_size = 100 and last point is 98 then last point is changed to 100)
         temp = self.threadIndexList[self.minThreadCounts - 1]
         self.threadIndexList[self.minThreadCounts - 1] = (temp[0], self.dictionarySize)
 
